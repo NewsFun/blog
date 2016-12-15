@@ -1,0 +1,37 @@
+body{background-color: #000000;color: white;}
+.bo-box{background: none;}
+.h1{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    /*height: 4em;*/
+    /*display: block;*/
+}
+.bo-like{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    /*font-size: 32px;*/
+    line-height: 46px;
+}
+.bo-like .inc{top: 15px;}
+.img-full{margin-top: 40px;}
+.img-msg{font-size: 1rem;}
+.title{width: 80%;overflow: hidden;display: inline-block;height: 100%;float: left;}
+.page{display: inline-block;height: 100%;width: 20%;float: left;}
+.text{
+    height: 80px;
+    line-height: 20px;
+    overflow-y: auto;
+}
+/*更改图标颜色*/
+.bo-image .swiper-button-next, .bo-image .swiper-button-prev{
+    color: white;
+    /*background: none;*/
+    line-height: 44px;
+    background-image:none;
+}
+.bo-image .swiper-button-prev{
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+}

@@ -1,0 +1,425 @@
+@charset 'UTF-8';
+
+/*全局蓝 #3f72eb*/
+
+
+/*!
+ * Description: Css file for mobile homepage of XINHUANET.com.
+ * Publish: 2016-11-29
+ * Editor: WangXiaoKang
+ * Copyright (c) 2000-2016 XINHUANET.com All Rights Reserved
+ */
+
+
+/******************************
+          Table of contents 
+ ******************************/
+
+
+/*
+ * Page-layout
+ * scrollnav
+ * topbar
+ * topbar-items
+ * loading
+ * page-common
+ */
+
+
+/******************************
+           Page-layout
+ ******************************/
+
+.main {
+    overflow: scroll;
+}
+
+.topbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: #eee;
+}
+
+.scroll-container {
+    position: fixed;
+    top: 50px;
+    z-index: 1000;
+    right: 0;
+    left:0;
+    height: 36px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+.scrollbar {
+    /*position: fixed;
+    top: 55px;
+    z-index: 999;
+    right: 0;*/
+    height: 60px;
+    overflow: scroll;
+    line-height: 34px;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 5px #fff inset;
+    box-shadow: 0 5px 5px #fff inset;
+}
+
+.scrollbar::scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.content {
+    margin-top: 82px;
+    overflow: auto;
+}
+
+.content-body {
+    position: relative;
+}
+
+.content-body > div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-body > div:first-child {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content-footer {
+    clear: both;
+    padding: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+/******************************
+           scrollnav
+ ******************************/
+
+.scrollnav {
+    overflow: auto;
+    width: 595px;
+}
+
+.scrollnav-item {
+    float: left;
+    padding-left: 0.8rem;
+}
+
+.scrollnav-item:first-child {
+    padding-left: 1em;
+}
+
+.scrollnav-item .scrollnav-link {
+    color: #333;
+    display: inline-block;
+    border-bottom: 3px solid #fff;
+}
+
+.scrollnav-item-active .scrollnav-link {
+    color: #08f;
+    outline: none;
+    text-decoration: none;
+    background-color: #fff;
+    display: inline-block;
+    border-bottom: 3px solid #08f;
+}
+
+
+/******************************
+           topbar-items
+ ******************************/
+
+.logo, .search, .weather {
+    height: 30px;
+    margin-top: 8px;
+}
+
+.logo {
+    width: 70px;
+    margin-left: 10px;
+    background: url('../imgs/logo.png') no-repeat left center/ 80%;
+}
+
+.weather {
+    margin-right: 30px;
+}
+
+.search {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+    line-height: 30px;
+}
+
+
+/******************************
+           loading
+ ******************************/
+
+.loading {
+    position: fixed;
+    z-index: 1000;
+    top: 50px;
+    right: 0;
+    bottom: 50px;
+    left: 45px;
+    padding: 15px;
+    background: #fff url('../imgs/loading.gif') no-repeat center center;
+    background-size: 30%;
+    display: none;
+}
+
+
+/******************************
+           more-btn
+ ******************************/
+
+.more-btn {
+    font-size: 12px;
+    line-height: 26px;
+    display: block;
+    width: 150px;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all .5s;
+    text-align: center;
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.more-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #999;
+}
+
+
+/******************************
+        common-thumbnail
+ ******************************/
+
+.layer-title {
+    position: absolute;
+    bottom: 0.5em;
+    left: 10px;
+    max-height: 2.4em;
+    line-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline: none;
+    border: none;
+    text-shadow: 0 0 1px #333;
+}
+
+.aticle-title {
+    max-height: 2.4em;
+    line-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.aticle-author {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.layer-ico {
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0.2rem;
+}
+
+.link-light {
+    color: #fff !important;
+}
+
+.link-dark {
+    color: #333 !important;
+}
+
+.thumbnail-list {
+    margin-top: 10px;
+}
+
+.top-thumbnail> .row, .thumbnail-list > .row {
+    margin-bottom: 20px;
+}
+
+.ico-cicle::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 6px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #3f72eb;
+    color: #fff !important;
+    vertical-align: middle;
+}
+
+
+/******************************
+        video-page
+ ******************************/
+
+.video .thumbnail-list > div:nth-of-type(2n+1) {
+    margin-bottom: 20px;
+    clear: left;
+}
+
+.video .thumbnail-list > div:nth-of-type(2n+1) img {
+    border-right: 2px solid #fff;
+    margin-left: -2px;
+}
+
+.video .thumbnail-list > div:nth-of-type(2n) {
+    margin-bottom: 20px;
+}
+
+.video .thumbnail-list > div:nth-of-type(2n) img {
+    border-left: 2px solid #fff;
+    margin-right: -2px;
+}
+
+
+/******************************
+        live-page
+ ******************************/
+
+
+/******************************
+        audio-page
+ ******************************/
+
+
+/******************************
+        photo-page
+ ******************************/
+
+
+/****************************
+        home-page
+ *****************************/
+
+
+/****************************
+           hotbar
+ *****************************/
+
+.hotbar {
+    position: relative;
+    height: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 32px;
+    border: 1px solid #c00;
+    border-radius: 5px;
+}
+
+.hotbar:before {
+    font-size: 10px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    padding: 2px;
+    content: '热';
+    color: #fff;
+    border-radius: 2px;
+    background: #c00;
+}
+
+.marquee-container {
+    line-height: 32px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+
+/****************************
+           arealist
+ *****************************/
+
+.area {
+    padding-top: 20px;
+}
+
+.area-item {
+    display: inline-block;
+    margin: 2% 3%;
+    width: 27%;
+    text-align: center;
+    color: #656A71;
+    font-size: 18px;
+}
+
+.area-item a {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid #BEBEBE;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #656A71;
+    text-decoration: none;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.area-item a:active {
+    transform: scale3d(1.2, 1.2, 1);
+}
+
+
+/****************************
+           weather
+ *****************************/
+
+.weather {
+    color: #333;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.weather-location {
+    text-align: right;
+    font-size: 14px;
+}
+
+.weather-ico {
+    height: 12px;
+    vertical-align: middle;
+}
+
+.weather-max::after {
+    content: '/';
+}
+
+.weather-min::after {
+    content: '℃';
+}
+
+/**/
+.swiper-scrollbar-drag{
+    background-color: #f00;
+}

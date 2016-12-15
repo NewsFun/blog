@@ -1,0 +1,83 @@
+jsonp({
+  "code": 200,
+  "content": {
+    "resultList": [
+      {
+        "contentId": "c98b81b76d3c45739d783ac2260a84a1",
+        "description": null,
+        "discode": "1100010111111010011100001100110111101100010001010100000001010100",
+        "originUrl": ["http://news.xinhuanet.com/tech/2016-12/02/c_1120040983.htm"],
+        "releaseDate": "2016-12-02 16:05:21",
+        "siteName": "科技频道",
+        "tagName": "社会,中国,国家,",
+        "title": "国务院扶贫办社会扶贫司巡视员曲天军致辞",
+        "titleImg": "http://tpic.home.news.cn/xhCloudNewsPic/xhpic1501/M0A/32/CE/wKhTlVhSRb-EHYj5AAAAACSe7cA946_910x512!910x511.jpg",
+        "attr":65
+      },
+      {
+        "contentId": "39428df74b1c49d98856184aa33a0312",
+        "description": "11月24日，以“工匠精神耀长宁、技能风采惠生活”为主题的“‘2016年中国技能大赛——上海市长宁区",
+        "discode": "1011011010001100101101101001000110111011100000110000110000010100",
+        "originUrl": ["http://news.xinhuanet.com/tech/2016-12/02/c_1120040983.htm"],
+        "releaseDate": "2016-12-02 16:05:20",
+        "siteName": "上海频道",
+        "tagName": "决赛;技能粉;职业技能竞赛;上海工程技术大学;选手报名",
+        "title": "工匠精神耀长宁 技能风采惠生活",
+        "titleImg": null,
+        "attr":61
+      },
+      {
+        "contentId": "ee63b291848741aaa19bad5a2a39719d",
+        "description": "。中国锡伯族博物馆位于沈北新区蒲河北岸，紧邻锡伯族文化广场，占地面积9804平方米，总建筑面积约7398",
+        "discode": "0001111100100110011101110001011100000111101000010100010011010100",
+        "originUrl": ["http://news.xinhuanet.com/tech/2016-12/02/c_1120040983.htm"],
+        "releaseDate": "2016-12-02 16:05:19",
+        "siteName": "地方联播频道",
+        "tagName": "锡伯族;博物馆设计;沈北;开馆;设计施工",
+        "title": "中国锡伯族博物馆明年开馆",
+        "titleImg": null,
+        "attr":65
+      },
+      {
+        "contentId": "c98b81b76d3c45739d783ac2260a84a1",
+        "description": null,
+        "discode": "1100010111111010011100001100110111101100010001010100000001010100",
+        "originUrl": ["http://news.xinhuanet.com/tech/2016-12/02/c_1120040983.htm"],
+        "releaseDate": "2016-12-02 16:05:21",
+        "siteName": "科技频道",
+        "tagName": "社会,中国,国家,",
+        "title": "国务院扶贫办社会扶贫司巡视员曲天军致辞",
+        "titleImg": "http://www.xinhuanet.com/video/titlepic/111975/1119751241_1476877566602_title0h.jpg",
+        "attr":63
+      },
+      {
+        "contentId": "39428df74b1c49d98856184aa33a0312",
+        "description": "11月24日，以“工匠精神耀长宁、技能风采惠生活”为主题的“‘2016年中国技能大赛——上海市长宁区",
+        "discode": "1011011010001100101101101001000110111011100000110000110000010100",
+        "originUrl": ["http://news.xinhuanet.com/tech/2016-12/02/c_1120040983.htm"],
+        "releaseDate": "2016-12-02 16:05:20",
+        "siteName": "上海频道",
+        "tagName": "决赛;技能粉;职业技能竞赛;上海工程技术大学;选手报名",
+        "title": "工匠精神耀长宁 技能风采惠生活",
+        "titleImg": null,
+        "attr":61
+      },
+      {
+        "contentId": "ee63b291848741aaa19bad5a2a39719d",
+        "description": "。中国锡伯族博物馆位于沈北新区蒲河北岸，紧邻锡伯族文化广场，占地面积9804平方米，总建筑面积约7398",
+        "discode": "0001111100100110011101110001011100000111101000010100010011010100",
+        "originUrl": ["http://news.xinhuanet.com/tech/2016-12/02/c_1120040983.htm"],
+        "releaseDate": "2016-12-02 16:05:19",
+        "siteName": "地方联播频道",
+        "tagName": "锡伯族;博物馆设计;沈北;开馆;设计施工",
+        "title": "中国锡伯族博物馆明年开馆",
+        "titleImg": null,
+        "attr":63
+      }
+    ],
+    "pageNo": 1,
+    "pageSize": 3,
+    "totalCount": 18396256,
+    "pageTotal": 6132086
+  }
+})

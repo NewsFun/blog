@@ -1,0 +1,101 @@
+.bg-black{color: #000000;}
+.bo-search{
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #ededed;
+}
+.search-box{padding-top: 10px;margin-left: 10px;}
+.bo-search input{
+    border: none;
+    height: 40px;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+.search{
+    height: 40px;
+    width: 40px;
+    float: left;
+    color: #3f72eb;
+    text-align: center;
+    line-height: 36px;
+    font-size: 1.25rem;
+}
+.keyword{
+    margin-left: 2px;
+    text-indent: 0.5em;
+}
+.submit{
+    width: 50px;
+    background-color: white;
+}
+.list{
+    color: red;
+    margin-left: 20px;
+    font-size: 1.25rem;
+    line-height: 1.8em;
+}
+/*.list li.on{color: #3f72eb;}*/
+/*.list li.on a{color: inherit;}*/
+.list li:hover{color: #0000ff;}
+.list li:hover a{color: inherit;}
+.bo-video ul.inline{
+    margin: 0 -5px;
+    padding-top: 5px;
+}
+.hot-hear .audio{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-top: 3px;
+}
+.search-video{padding: 5px;}
+.search-video .img-full{position: relative;}
+.search-video .img-full .iconfont{
+    position: absolute;
+    font-size: 2.2rem;
+    color: red;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    line-height: 40px;
+}
+.search-video .content{height: 2.4em;overflow: hidden;line-height: 1.2em;}
+/*result*/
+.bo-recommend .unList{
+    margin-bottom: 15px;
+}
+.bo-recommend .iconfont{
+    display: block;
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #11a1fe;
+}
+.bo-recommend li{position: relative;}
+.bo-recommend .load-more{
+    color: #11a1fe;
+    text-align: center;
+}
+.text p{
+    /*height: 24px;*/
+    /*overflow: hidden;*/
+    padding-left: 28px;
+}
+.content .iconfont{
+    left: 0;
+    bottom: 16px;
+}
+.text .iconfont{
+    left: 0;
+    top: 16px;
+}
